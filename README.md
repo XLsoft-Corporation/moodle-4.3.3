@@ -72,7 +72,7 @@ docker compose up -d
 
 日本語化を行う。(参考: [「moodle」を日本語化する \| mebee](https://mebee.info/2021/05/08/post-33686/))
 
-- [ログインページ](http://192.168.2.31:8080/login/index.php) にアクセスし、`user/bitnami` でログイン
+- ログインページ http://<SERVER_IP>:8080/login/index.php にアクセスし、`user/bitnami` でログイン
 - `Site Administration > General タブ > Language > Language packs` に遷移
 - `Available language packs` から `Japanese/日本語(ja)` を選択し、`Install selected language pack(s)` をクリック
 - ユーザーの `Language` メニューから `日本語(ja)` を選択
